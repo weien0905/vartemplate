@@ -1,0 +1,416 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+footer {
+    padding: 4px;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+input[type="checkbox"] {
+    accent-color: black;
+}
+
+nav {
+    background-color: gold;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.5);
+}
+
+.box {
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+    border: solid 1px rgba(128, 128, 128, 0.5);
+    border-radius: 25px;
+}
+
+.box-form, .left-text {
+    text-align: left;
+}
+
+.box-form .input-field {
+    width: 100%;
+    padding: 2px 4px;
+}
+
+.box-form .box-form-field {
+    margin: 10px 0;
+}
+
+.button-link {
+    border-style: none;
+    background-color: inherit;
+    text-decoration: underline;
+    padding: 0;
+}
+
+.btn {
+    padding: 2px 6px;
+}
+
+.button-link:hover {
+    color: blue;
+
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center-prompt {
+    width: 85%;
+    margin: 20px auto;
+}
+
+.container {
+    width: 100%;
+}
+
+.edit-content, .edit-subject {
+    padding: 5px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    text-align: justify;
+    white-space: pre-wrap;
+}
+
+.edit-content input, .edit-subject input {
+    margin: 2px;
+}
+
+.edit-content input:focus, .edit-subject input:focus {
+    outline: none;
+}
+
+.edit-input-black {
+    border: 2px solid black;
+}
+
+.edit-input-red {
+    border: 2px solid red;
+}
+
+.example {
+    background-color: lightgray;
+    padding: 0 5px;
+    font-family: monospace;
+}
+
+.home-search {
+    margin: auto;
+    width: 85%;
+}
+
+.inline-label {
+    display: inline;
+}
+
+.intro {
+    margin: 20px 0;
+    animation-name: show;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.intro-title {
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    margin: 2px 0;
+}
+
+.intro-outer {
+    padding: 0 5px;
+}  
+
+.intro-inner {
+    padding: 15px;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.star {
+    color: gold;
+    font-size: 2rem;
+}
+
+.flex-btn {
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo-title {
+    font-size: 2rem;
+    padding: 0 5px;
+}
+
+.margin-div {
+    margin: 20px;
+}
+
+.message {
+    background-color: pink;
+    border: solid 2px rgba(255, 0, 0, 0.5);
+    text-align: left;
+    overflow: auto;
+    text-align: justify;
+}
+
+.message-success {
+    background-color: lightgreen;
+    border: solid 2px rgba(0, 128, 0, 0.5);
+    text-align: left;
+    overflow: auto;
+    text-align: justify;
+}
+
+.message-div {
+    margin: 5px;
+}
+
+.pagination-box {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination .page-link {
+    color: black;
+}
+
+.pagination .page-link:focus {
+    box-shadow: none;
+}
+
+.pagination .page-item.active .page-link {
+    border-color: black;
+    background-color: black;
+}
+
+.search-bar {
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 5px 15px;
+    border: solid 1px rgba(128, 128, 128, 0.5);
+    border-radius: 25px;
+    display: block;
+}
+
+.search-button {
+    float: right;
+    border-radius: 50%;
+    border: none;
+    background-color: inherit;
+}
+
+.search-button:hover {
+    background-color: whitesmoke;
+}
+
+.search-input {
+    width: 80%;
+    border: none;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.submit-btn {
+    background-color: gold;
+    border: solid 1px rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
+    margin: auto;
+    padding: 2px 50px;
+}
+
+.submit-btn:hover {
+    background-color: rgb(255, 226, 61);;
+}
+
+.times {
+    float: right;
+    cursor: pointer;
+}
+
+.template {
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.create-content {
+    padding: 5px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.create-content textarea {
+    width: 100%;
+    border: none;
+}
+
+.create-content textarea:focus {
+    outline: none;
+}
+
+.template-details {
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.template-details-subject {
+    font-weight: bold;
+}
+
+.template-details-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-align: justify;
+}
+
+.template-details-info {
+    display: inline-flex;
+    align-items: center;
+}
+
+.template-options {
+    padding:5px;
+}
+
+.template-owner-actions {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.template-owner-actions button {
+    margin: 0 10px;
+}
+
+.template-tips {
+    padding-bottom: 2px;
+    text-align: justify;
+}
+
+.create-subject {
+    padding: 5px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.create-subject input {
+    width: 100%;
+    border: none;
+}
+
+.create-subject input:focus {
+    outline: none;
+}
+
+.text-padding {
+    padding: 0 4px;
+}
+
+.title {
+    font-size: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.vertical-text {
+    vertical-align: middle;
+}
+
+#box-logo {
+    height: 2rem;
+}
+
+#nav-logo {
+    height: 1.2rem;
+}
+
+@media (min-width:1000px) {
+    .center-prompt, .home-search, .popup {
+        width: 50%;
+    }
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Popup */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    display: flex;
+    justify-content: center;
+    visibility: visible;
+    opacity: 1;
+}
+  
+.popup {
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    width: 70%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup .close {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    transition: all 200ms;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.popup .close:hover {
+    color: gray;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+.ok-btn {
+    padding-top: 5px;
+}
