@@ -6,6 +6,8 @@ VarTemplate is a web application that utilised React in the front end, Django is
 
 It is deployed on [https://vartemplate.web.app/](https://vartemplate.web.app/).
 
+[<img src="homepage.jpg" width="500">](https://vartemplate.web.app/)
+
 # Table of Contents
 - [Function](#function)
 - [Usage](#usage)
