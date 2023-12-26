@@ -99,15 +99,17 @@ File/Folder | Explanation
 
 React is used in front end to provide better user experience.
 
-- [Google Fonts](https://fonts.google.com/) is used for text font.
+Other technologies used:
 
-- [Bootstrap](https://getbootstrap.com/) is used to make HTML elements to have a nicer look.
+- [Google Fonts](https://fonts.google.com/) - Text font
 
-- [React Icons](https://react-icons.github.io/react-icons/) is used for icons.
+- [Bootstrap](https://getbootstrap.com/) - Make HTML elements to have a nicer look
 
-- [React Router](https://reactrouter.com/en/main) is used for page routing.
+- [React Icons](https://react-icons.github.io/react-icons/) - Icons
 
-- [jwt-decode](https://www.npmjs.com/package/jwt-decode) is used to decode JSON Web Token.
+- [React Router](https://reactrouter.com/en/main) - Page routing
+
+- [jwt-decode](https://www.npmjs.com/package/jwt-decode) - Decode JSON Web Token
 
 ### Routes
 
@@ -130,13 +132,15 @@ Route | Explanation
 
 ## Back End - Django
 
-- [Django Rest Framework](https://www.django-rest-framework.org/) is used to communicate with front end.
+Technologies used:
 
-- [JSON Web Token](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/) is used for authentication.
+- [Django Rest Framework](https://www.django-rest-framework.org/) - Communicate with front end.
 
-- [UUID](https://docs.djangoproject.com/en/4.1/ref/models/fields/#uuidfield) is used for template primary key for security reasons.
+- [JSON Web Token](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/) - Authentication.
 
-- [nltk](https://www.nltk.org/) is used for implementing NLP techniques in back end.
+- [UUID](https://docs.djangoproject.com/en/4.1/ref/models/fields/#uuidfield) - Template primary key for security reasons.
+
+- [nltk](https://www.nltk.org/) - Implement NLP techniques in back end.
 
 ### Models
 
