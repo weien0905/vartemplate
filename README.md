@@ -171,7 +171,7 @@ The whole implemention of NLP can be found in [nlp](nlp).
 
 - Word2vec uses vectors to present each word. We can use vectors to find the distance of two words to know the similarity of two words. 
 
-- Data from [CS50 AI](https://cdn.cs50.net/ai/2020/spring/lectures/6/src6/vectors/words.txt) is used after compared with a few [Gensim](https://radimrehurek.com/gensim/) models. After that, Gensim is used in [word2vec.ipynb](nlp/word2vec.ipynb) to find the neighbours of a word with a similarity threshold and maximum number of neighbour. Run [word2vec.ipynb](nlp/word2vec.ipynb) to get the results in JSON file.
+- Data from [CS50 AI](https://cdn.cs50.net/ai/2020/spring/lectures/6/src6/vectors/words.txt) is used after compared with a few [Gensim](https://radimrehurek.com/gensim/) models (credit goes to them). After that, Gensim is used in [word2vec.ipynb](nlp/word2vec.ipynb) to find the neighbours of a word with a similarity threshold and maximum number of neighbour. Run [word2vec.ipynb](nlp/word2vec.ipynb) to get the results in JSON file.
 
 ### [Okapi BM25](https://en.wikipedia.org/wiki/Okapi_BM25)
 
