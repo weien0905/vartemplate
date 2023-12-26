@@ -169,15 +169,15 @@ The whole implemention of NLP can be found in [nlp](nlp).
 
 ### [Word2vec](https://en.wikipedia.org/wiki/Word2vec)
 
-Word2vec uses vectors to present each word. We can use vectors to find the distance of two words to know the similarity of two words. 
+- Word2vec uses vectors to present each word. We can use vectors to find the distance of two words to know the similarity of two words. 
 
-Data from [CS50 AI](https://cdn.cs50.net/ai/2020/spring/lectures/6/src6/vectors/words.txt) is used after compared with a few [Gensim](https://radimrehurek.com/gensim/) models. After that, Gensim is used in [word2vec.ipynb](nlp/word2vec.ipynb) to find the neighbours of a word with a similarity threshold and maximum number of neighbour. Run [word2vec.ipynb](nlp/word2vec.ipynb) to get the results in JSON file.
+- Data from [CS50 AI](https://cdn.cs50.net/ai/2020/spring/lectures/6/src6/vectors/words.txt) is used after compared with a few [Gensim](https://radimrehurek.com/gensim/) models. After that, Gensim is used in [word2vec.ipynb](nlp/word2vec.ipynb) to find the neighbours of a word with a similarity threshold and maximum number of neighbour. Run [word2vec.ipynb](nlp/word2vec.ipynb) to get the results in JSON file.
 
 ### [Okapi BM25](https://en.wikipedia.org/wiki/Okapi_BM25)
 
-Okapi BM25 is an improved version of the traditional ranking algorithm of TF-IDF. It considers document length and the score will not increase linearly with the term frequency. 
+- Okapi BM25 is an improved version of the traditional ranking algorithm of TF-IDF. It considers document length and the score will not increase linearly with the term frequency. 
 
-Data of Enron Email Dataset from [Kaggle](https://www.kaggle.com/datasets/wcukierski/enron-email-dataset) is used for training the IDF values, which can be viewed in [bm25.ipynb](nlp/bm25.ipynb). Run [bm25.ipynb](nlp/bm25.ipynb) to get the results in JSON file.
+- Data of Enron Email Dataset from [Kaggle](https://www.kaggle.com/datasets/wcukierski/enron-email-dataset) is used for training the IDF values, which can be viewed in [bm25.ipynb](nlp/bm25.ipynb). Run [bm25.ipynb](nlp/bm25.ipynb) to get the results in JSON file.
 
 ### Implementation in web application
 
