@@ -181,6 +181,6 @@ The whole implemention of NLP can be found in [nlp](nlp).
 
 ### Implementation in web application
 
-The output from [word2vec.ipynb](nlp/word2vec.ipynb) for Word2vec and [bm25.ipynb](nlp/bm25.ipynb) for Okapi BM25 is combined in [words.ipynb](nlp/words.ipynb). The output of [words.ipynb](nlp/words.ipynb) will be used in the web application.
+- The output from [word2vec.ipynb](nlp/word2vec.ipynb) for Word2vec and [bm25.ipynb](nlp/bm25.ipynb) for Okapi BM25 is combined in [words.ipynb](nlp/words.ipynb). The output of [words.ipynb](nlp/words.ipynb) will be used in the web application.
 
-In the web application, once the user enters his query, the query will be tokenized and we will get the neighbours of each word (excluding stopwords) and filter out all the templates with the word and its neighbours. After that, the templates that has been filtered out will go through the ranking process based on BM25 algorithm to identify the relevance of the templates.
+- In the web application, once the user enters his query, the query will be tokenized and we will get the neighbours of each word (excluding stopwords) and filter out all the templates with the word and its neighbours. After that, the templates that has been filtered out will go through the ranking process based on BM25 algorithm to identify the relevance of the templates.
